@@ -11,3 +11,5 @@ The Lambda function fetches all EBS snapshots owned by the same account ('self')
 ### Deletion of Unused Resources:
 The Lambda function was designed to delete unused EC2 instances, volumes, and snapshots. This ensured that resources were not left idle and incurring costs without providing any value.
 
+### Increasing Timeout Session for Lambda Execution:
+To ensure that the Lambda function had enough time to execute its tasks, I increased the timeout session. This allowed the function to complete its operations without timing out prematurely.
