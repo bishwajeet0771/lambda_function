@@ -17,3 +17,8 @@ To ensure that the Lambda function had enough time to execute its tasks, I incre
 ### Adding Permissions:
 I added the necessary permissions to the Lambda function's IAM role to ensure it could perform the required operations on EC2 instances and EBS snapshots.
 
+### Cost Efficiency:
+By automating the deletion of unused resources, this project helps reduce AWS costs significantly. It ensures that resources are utilized efficiently and that unnecessary expenses are avoided.
+
+### Conclusion
+This project demonstrates how AWS Lambda can be used to optimize AWS costs by automating the management of EBS snapshots and EC2 instances. By implementing similar strategies, organizations can streamline their cloud operations and enhance cost efficiency.
