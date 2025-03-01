@@ -13,3 +13,7 @@ The Lambda function was designed to delete unused EC2 instances, volumes, and sn
 
 ### Increasing Timeout Session for Lambda Execution:
 To ensure that the Lambda function had enough time to execute its tasks, I increased the timeout session. This allowed the function to complete its operations without timing out prematurely.
+
+### Adding Permissions:
+I added the necessary permissions to the Lambda function's IAM role to ensure it could perform the required operations on EC2 instances and EBS snapshots.
+
